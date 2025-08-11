@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body>
+    <header class="bg-[red] fixed top-0 w-full z-[5] ">
+        <div class="container mx-auto   flex justify-between items-center pt-[20px] pb-[20px] pr-[10px] pl-[10px]">
+            <a href="">
+                <img src="./pegas/Frame 64.png" alt="logo">
+            </a>
+            <ul class="flex gap-[30px]  hidden sm:flex ">
+                <li>
+                    <a class="text-[16px] text-[white] leading-none-[100%] " href="">Menu</a>
+                </li>
+                <li>
+                    <a class="text-[16px] text-[white] leading-none-[100%] " href="">News</a>
+                </li>
+                <li>
+                    <a class="text-[16px] text-[white] leading-none-[100%] " href="">About Us</a>
+                </li>
+                <li>
+                    <a class="text-[16px] text-[white] leading-none-[100%] " href="">Contact Us</a>
+                </li>
+            </ul>
+            <button
+                class="text-[16px] text-[white] leading-none-[100%] max-w-[131px] h-48px border-4 rounded-[31px] pt-[10px] pb-[10px] pl-[40px] pr-[40px]">Log
+                in</button>
+            <button id="toggle" class="max-w-10 rounded-[31px] sm:hidden "><img src="./pegas/toggle.png"
+                    alt="toggle"></button>
+        </div>
+    </header>
+    <!-- <ul id="menu"
+    class="bg-black fixed h-[100%] w-full items-center justify-center flex-col gap-[30px] ">
+    <li class="border-4  border-red-500 max-w-300 w-70 h-12  duration-[0.5s]">
+        <a class="text-[16px] text-[white] flex items-center justify-center flex-col h-[100%]  leading-[24px] dark:hover:bg-red-600"
+            href="">About Us</a>
+    </li>
+    <li class="border-4  border-red-500 max-w-300 w-70 h-12 duration-[0,5s] ">
+        <a class="text-[16px] text-[white] flex items-center justify-center flex-col h-[100%]  leading-[24px] dark:hover:bg-red-600"
+            href="">CAREERS</a>
+    </li>
+    <li class="border-4  border-red-500 max-w-300 w-70 h-12 duration-[0,5] ">
+        <a class="text-[16px] text-[white] flex items-center justify-center flex-col h-[100%]   leading-[24px] dark:hover:bg-red-600"
+            href="">Services</a>
+    </li>
+    <li class="border-4  border-red-500 max-w-300 w-70 h-12 duration-[0,5] ">
+        <a class="text-[16px] text-[white] flex items-center justify-center flex-col h-[100%]   leading-[24px] dark:hover:bg-red-600"
+            href="">Blog</a>
+    </li>
+    <li class="border-4  border-red-500 max-w-300 w-70 h-12  duration-[0,5]">
+        <a class="text-[16px] text-[white] flex items-center justify-center flex-col h-[100%] leading-[24px] dark:hover:bg-red-600"
+            href="">Contact us</a>
+    </li>
+    <button class="bg-[red] text-white absolute top-[120px] right-[200px] mb-[300px] w-20" >X</button>
+</ul> -->
+    <main>
+        <section class="bg-[#BB2339] h-[1000px] justify-between gap-[30px] sm:h-[1090px] ">
+            <div
+                class="container mx-auto pr-[10px] pl-[10px]  sm:flex  sm:flex-col sm:items-center lg:grid lg:grid-cols-2">
+                <div class="">
+                    <h1 class="text-[23px] text-[#FFFFFF] leading-none-[100%] pt-[200px] ">Chase the new Flavour</h1>
+                    <h1 class="text-[90px] text-[white] leading-none-[130%] max-w-[555px] h-[234px] text-[black]">The
+                        key to Fine dining</h1>
+                    <p class="max-w-[453px] h-[84px] text-[white] pt-[32px] mb-[40px] ">Sit tellus lobortis sed senectus
+                        vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et,
+                        penatibus aliquam amet tellus</p>
+                    <button
+                        class="text-[16px] text-[white] border-1 rounded-[100px] pt-[8px] pb-[8px] pl-[32px] pr-[32px]  ">Explore
+                        Menu</button>
+                </div>
+                <img class="max-w-[820px] h-[600px] pt-[150px] sm:pt-[100px]" src="./pegas/Mask group.png"
+                    alt="shashlik">
+            </div>
+        </section>
+        <section class="bg-[#F8F8F8]">
+            <div class="container mx-auto">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <h1 class="text-[#BB2339] text-[48px] leading-none-[100%] pt-[150px]">Popular Dishes</h1>
+                    </div>
+                    <div><img class="max-w-[100px] h-[20px] mt-[160px] mr-[100px]" src="./pegas/Group 101.png"
+                            alt="tugmacha"></div>
+                </div>
+                <div class="flex gap-[30px] sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 flex-col items-center">
+                    <div class="bg-[white] max-w-[310px] h-[396px] mt-[30px] mb-[80px] border-1 rounded-[3px] ">
+                        <img class="max-w-[270px] h-[183px] pl-[20px]" src="./pegas/klipartz 1 (1).png" alt="shashlik">
+                        <h1 class="text-[18px] leading-none-[100%] max-w-[270px] h-[50px] text-center
+            ">Barbecue Shish kebab Shashlik Skewer</h1>
+                        <img class="pt-[20px] pb-[20px] pl-[82px] " src="./pegas/Group 134.png" alt="yulduzlar">
+                        <p class="text-[#BB2339] text-[24px] pl-[101px] mb-[40px]
+            leading-none-[100%]">$12.00</p>
+                    </div>
+                    <div class="bg-[white] max-w-[310px] h-[396px] mt-[30px] mb-[80px] border-1 rounded-[3px] ">
+                        <img class="max-w-[270px] h-[183px] pl-[20px]" src="./pegas/klipartz 1 (2).png" alt="pitsa">
+                        <h1 class="text-[18px] leading-none-[100%] max-w-[270px] h-[50px] text-center
+                        ">Barbecue Shish kebab Shashlik Skewer</h1>
+                        <img class="pt-[20px] pb-[20px] pl-[82px] " src="./pegas/Group 134.png" alt="yulduzlar">
+                        <p class="text-[#BB2339] text-[24px] pl-[101px] mb-[40px]
+                        leading-none-[100%]">$12.00</p>
+                    </div>
+                    <div class="bg-[white] max-w-[310px] h-[396px] mt-[30px] mb-[80px] border-1 rounded-[3px] ">
+                        <img class="max-w-[270px] h-[183px] pl-[20px]" src="./pegas/klipartz 1 (3).png" alt="shashlik">
+                        <h1 class="text-[18px] leading-none-[100%] max-w-[270px] h-[50px] text-center
+                                        ">Barbecue Shish kebab Shashlik Skewer</h1>
+                        <img class="pt-[20px] pb-[20px] pl-[82px] " src="./pegas/Group 134.png" alt="yulduzlar">
+                        <p class="text-[#BB2339] text-[24px] pl-[101px] mb-[40px]
+                                        leading-none-[100%]">$12.00</p>
+                    </div>
+                    <div class="bg-[white] max-w-[310px] h-[396px] mt-[30px] mb-[80px] border-1 rounded-[3px] ">
+                        <img class="max-w-[270px] h-[183px] pl-[20px]" src="./pegas/klipartz 1 (4).png" alt="shashlik">
+                        <h1 class="text-[18px] leading-none-[100%] max-w-[270px] h-[50px] text-center
+                                                                                        ">Barbecue Shish kebab Shashlik
+                            Skewer</h1>
+                        <img class="pt-[20px] pb-[20px] pl-[82px] " src="./pegas/Group 134.png" alt="yulduzlar">
+                        <p class="text-[#BB2339] text-[24px] pl-[101px] mb-[40px]
+                                                                                        leading-none-[100%]">$12.00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container mx-auto ">
+                <h1 class="text-[#BB2339] text-[48px] leading-none-[100%] pt-[120px] pb-[60px]">Our Regular Menu Pack
+                </h1>
+                <ul class="flex sm:grid  md:grid-cols-3 lg:grid-cols-4  flex-col items-center  gap-[20px]  ">
+                    <li class="pb-[20px]"><a class="max-w-[82px] h-[48px]   text-[16px] leading-none-[175px] pt-[10px] pb-[10px]
+            pr-[30px] pl-[30px]  border-4 border-red-500 rounded-[100px] hover:bg-red-700 hover:text-[white]   "
+                            href="">All</a></li>
+                    <li class="pb-[20px]">
+                        <a class="max-w-[82px] h-[48px] text-[16px] leading-none-[175px] pt-[10px] pb-[10px] 
+                pr-[30px] pl-[30px] border-4 border-red-500  rounded-[100px] hover:bg-red-700 hover:text-[white] "
+                            href="">Shawarma</a>
+                    </li>
+                    <li class="pb-[20px]">
+                        <a class="max-w-[82px] h-[48px]   text-[16px] leading-none-[175px] pt-[10px] pb-[10px]
+                pr-[30px] pl-[30px]  border-4 border-red-500 
+                rounded-[100px]  hover:bg-red-700 hover:text-[white]" href="">Turk Kebab</a>
+                    </li>
+                    <li class="pb-[10px]">
+                        <a class="max-w-[82px] h-[48px]    leading-none-[175px] pt-[10px] pb-[10px]
+                            pr-[30px] pl-[30px]  border-4 border-red-500 rounded-[100px] hover:bg-red-700 hover:text-[white] "
+                            href="">Hamburger Kebab</a>
+                    </li>
+                    <li class="pb-[20px]">
+                        <a class="max-w-[82px] h-[48px]   text-[16px] leading-none-[175px] pt-[10px] pb-[10px]
+                            pr-[30px] pl-[30px]  border-4 border-red-500 rounded-[100px] hover:bg-red-700 hover:text-[white]"
+                            href="">Doner kebab</a>
+                    </li>
+                    <li class="pb-[20px]">
+                        <a class="max-w-[82px] h-[48px]   text-[16px] leading-none-[175px] pt-[10px] pb-[10px]
+                            pr-[30px] pl-[30px]  border-4 border-red-500 rounded-[100px] hover:bg-red-700 hover:text-[white]"
+                            href="">Shish kebab</a>
+                    </li>
+                    <li class="pb-[20px]">
+                        <a class="max-w-[82px] h-[48px]   text-[16px] leading-none-[175px] pt-[10px] pb-[10px]
+                            pr-[30px] pl-[30px]  border-4 border-red-500 rounded-[100px] hover:bg-red-700 hover:text-[white]"
+                            href="">French fries Pizza</a>
+                    </li>
+                    <li class="pb-20px">
+                        <a class="max-w-[82px] h-[48px]   text-[16px] leading-none-[175px] pt-[10px] pb-[10px]
+                            pr-[30px] pl-[30px]  border-4 border-red-500 rounded-[100px] hover:bg-red-700 hover:text-[white]"
+                            href="">Desserts</a>
+                    </li>
+                </ul>
+                <div class="flex gap-[30px] sm:grid md:grid-cols-2 lg:grid-cols-4 flex-col items-center ">
+                    <div class="max-w-[310px] h-[366px] rounded-[5px] bg-[white] border-1 mt-[30px]">
+                        <img class="max-w-[270px] h-[183px] pl-[10px] pt-[40px]" src="./pegas/klipartz 1 (5).png"
+                            alt="2shahslik">
+                        <h1 class="text-[18px] max-w-[270px] h-[50px] leading-none-[100%] text-center mb-[30px]">
+                            Barbecue Shish kebab Shashlik Skewer</h1>
+                        <h1 class="text-[#BB2339] text-[24px] leading-none-[100%] pl-[105px]">$12.00</h1>
+                    </div>
+                    <div class="max-w-[310px] h-[366px] rounded-[5px] bg-[white] border-1 mt-[30px]">
+                        <img class="max-w-[270px] h-[183px] pl-[10px] pt-[40px]" src="./pegas/klipartz 1 (6).png"
+                            alt="2shahslik">
+                        <h1 class="text-[18px] max-w-[270px] h-[50px] leading-none-[100%] text-center mb-[30px]">
+                            Barbecue Shish kebab
+                            Shashlik Skewer</h1>
+                        <h1 class="text-[#BB2339] text-[24px] leading-none-[100%] pl-[105px]">$12.00</h1>
+                    </div>
+                    <div class="max-w-[310px] h-[366px] rounded-[5px] bg-[white] border-1 mt-[30px]">
+                        <img class="max-w-[270px] h-[183px] pl-[10px] pt-[40px]" src="./pegas/klipartz 1 (7).png"
+                            alt="2shahslik">
+                        <h1 class="text-[18px] max-w-[270px] h-[50px] leading-none-[100%] text-center mb-[30px]">
+                            Barbecue Shish kebab
+                            Shashlik Skewer</h1>
+                        <h1 class="text-[#BB2339] text-[24px] leading-none-[100%] pl-[105px]">$12.00</h1>
+                    </div>
+                    <div class="max-w-[310px] h-[366px] rounded-[5px] bg-[white] border-1 mt-[30px]">
+                        <img class="max-w-[270px] h-[183px] pl-[10px] pt-[40px]" src="./pegas/klipartz 1 (8).png"
+                            alt="2shahslik">
+                        <h1 class="text-[18px] max-w-[270px] h-[50px] leading-none-[100%] text-center mb-[30px]">
+                            Barbecue Shish kebab
+                            Shashlik Skewer</h1>
+                        <h1 class="text-[#BB2339] text-[24px] leading-none-[100%] pl-[105px]">$12.00</h1>
+                    </div>
+                    <div class="max-w-[310px] h-[366px] rounded-[5px] bg-[white] border-1 mt-[30px]">
+                        <img class="max-w-[270px] h-[183px] pl-[10px] pt-[40px]" src="./pegas/klipartz 1 (9).png"
+                            alt="2shahslik">
+                        <h1 class="text-[18px] max-w-[270px] h-[50px] leading-none-[100%] text-center mb-[30px]">
+                            Barbecue Shish kebab
+                            Shashlik Skewer</h1>
+                        <h1 class="text-[#BB2339] text-[24px] leading-none-[100%] pl-[105px]">$12.00</h1>
+                    </div>
+                    <div class="max-w-[310px] h-[366px] rounded-[5px] bg-[white] border-1 mt-[30px]">
+                        <img class="max-w-[270px] h-[183px] pl-[10px] pt-[40px]" src="./pegas/klipartz 1 (10).png"
+                            alt="2shahslik">
+                        <h1 class="text-[18px] max-w-[270px] h-[50px] leading-none-[100%] text-center mb-[30px]">
+                            Barbecue Shish kebab
+                            Shashlik Skewer</h1>
+                        <h1 class="text-[#BB2339] text-[24px] leading-none-[100%] pl-[105px]">$12.00</h1>
+                    </div>
+                    <div class="max-w-[310px] h-[366px] rounded-[5px] bg-[white] border-1 mt-[30px]">
+                        <img class="max-w-[270px] h-[183px] pl-[10px] pt-[40px]" src="./pegas/klipartz 1 (11).png"
+                            alt="2shahslik">
+                        <h1 class="text-[18px] max-w-[270px] h-[50px] leading-none-[100%] text-center mb-[30px]">
+                            Barbecue Shish kebab
+                            Shashlik Skewer</h1>
+                        <h1 class="text-[#BB2339] text-[24px] leading-none-[100%] pl-[105px]">$12.00</h1>
+                    </div>
+                    <div class="max-w-[310px] h-[366px] rounded-[5px] bg-[white] border-1 mt-[30px]">
+                        <img class="max-w-[270px] h-[183px] pl-[10px] pt-[40px]" src="./pegas/klipartz 1 (12).png"
+                            alt="2shahslik">
+                        <h1 class="text-[18px] max-w-[270px] h-[50px] leading-none-[100%] text-center mb-[30px]">
+                            Barbecue Shish kebab
+                            Shashlik Skewer</h1>
+                        <h1 class="text-[#BB2339] text-[24px] leading-none-[100%] pl-[105px]">$12.00</h1>
+                    </div>
+                    <div class="max-w-[310px] h-[366px] rounded-[5px] bg-[white] border-1 mt-[30px]">
+                        <img class="max-w-[270px] h-[183px] pl-[10px] pt-[40px]" src="./pegas/klipartz 1 (13).png"
+                            alt="2shahslik">
+                        <h1 class="text-[18px] max-w-[270px] h-[50px] leading-none-[100%] text-center mb-[30px]">
+                            Barbecue Shish kebab
+                            Shashlik Skewer</h1>
+                        <h1 class="text-[#BB2339] text-[24px] leading-none-[100%] pl-[105px]">$12.00</h1>
+                    </div>
+                    <div class="max-w-[310px] h-[366px] rounded-[5px] bg-[white] border-1 mt-[30px]">
+                        <img class="max-w-[270px] h-[183px] pl-[10px] pt-[40px]" src="./pegas/klipartz 1 (14).png"
+                            alt="2shahslik">
+                        <h1 class="text-[18px] max-w-[270px] h-[50px] leading-none-[100%] text-center mb-[30px]">
+                            Barbecue Shish kebab
+                            Shashlik Skewer</h1>
+                        <h1 class="text-[#BB2339] text-[24px] leading-none-[100%] pl-[105px]">$12.00</h1>
+                    </div>
+                    <div class="max-w-[310px] h-[366px] rounded-[5px] bg-[white] border-1 mt-[30px]">
+                        <img class="max-w-[270px] h-[183px] pl-[10px] pt-[40px]" src="./pegas/klipartz 1 (15).png"
+                            alt="2shahslik">
+                        <h1 class="text-[18px] max-w-[270px] h-[50px] leading-none-[100%] text-center mb-[30px]">
+                            Barbecue Shish kebab
+                            Shashlik Skewer</h1>
+                        <h1 class="text-[#BB2339] text-[24px] leading-none-[100%] pl-[105px]">$12.00</h1>
+                    </div>
+                    <div class="max-w-[310px] h-[366px] rounded-[5px] bg-[white] border-1 mt-[30px]">
+                        <img class="max-w-[270px] h-[183px] pl-[10px] pt-[40px]" src="./pegas/klipartz 1 (16).png"
+                            alt="2shahslik">
+                        <h1 class="text-[18px] max-w-[270px] h-[50px] leading-none-[100%] text-center mb-[30px]">
+                            Barbecue Shish kebab
+                            Shashlik Skewer</h1>
+                        <h1 class="text-[#BB2339] text-[24px] leading-none-[100%] pl-[105px]">$12.00</h1>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+        <section class="bg-[#F4F4F4] mt-[40px]">
+            <div class="container mx-auto  ">
+                <div class="">
+                    <h1 class="text-center  h-[30px] text-[23px] leading-none-[4%] pb-[20px] pt-[30px]">
+                        Testimony</h1>
+                    <h1 class=" text-center h-[63px] text-[18px] leading-none-[3%] pt-[20px] pb-[60px]">Happy customers
+                    </h1>
+                </div>
+                <div class="flex sm:flex-col sm:items-center gap-[30px] sm:grid md:grid-cols-2 lg:grid-cols-3 ">
+                    <div class="max-w-[410px] h-[198px] border-4 rounded-[10px]">
+                        <h1 class="text-[24px] text-[#333333] max-w-[66px] h-[26px] pt-[20px] pl-[10px]">Maria</h1>
+                        <p class="text-[#333333] text-[14px] leading-none-[22px] pt-[30px] pb-[20px] pl-[10px]">Lorem
+                            ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate
+                            nulla lobortis mauris eget
+                            sit. Nulla scelerisque scelerisq...</p>
+                        <img class="max-w-[215px] h-[16px] pl-[10px] " src="./pegas/Group 40789@2x.png" alt="">
+                    </div>
+                    <div class="max-w-[410px] h-[198px] border-4 rounded-[10px]">
+                        <h1 class="text-[24px] text-[#333333] max-w-[66px] h-[26px] pt-[20px] pl-[10px]">Maria</h1>
+                        <p class="text-[#333333] text-[14px] leading-none-[22px] pt-[30px] pb-[20px] pl-[10px]">Я всегда
+                            был самым худым и
+                            щуплым ребенком среди своих сверстников. Я всегда мечтал стать как мой кумир и иметь
+                            интерес....</p>
+                        <img class="max-w-[215px] h-[16px] pl-[10px] " src="./pegas/Group 40789@2x.png" alt="">
+                    </div>
+                    <div class="max-w-[410px] h-[198px] border-4 rounded-[10px]">
+                        <h1 class="text-[24px] text-[#333333] max-w-[66px] h-[26px] pt-[20px] pl-[10px]">Maria</h1>
+                        <p class="text-[#333333] text-[14px] leading-none-[22px] pt-[30px] pb-[20px] pl-[10px]">Lorem
+                            ipsum dolor sit amet,
+                            consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget
+                            sit. Nulla scelerisque scelerisq...</p>
+                        <img class="max-w-[215px] h-[16px] pl-[10px] " src="./pegas/Group 40789@2x.png" alt="">
+                    </div>
+                </div>
+                <img class="text-center h-[40px] items-center mt-[30px] mb-[50px] sm:ml-[300px]  md:ml-[600px] "
+                    src="./pegas/Group 101.png" alt="tugmalar">
+            </div>
+        </section>
+       <section class="">
+        <div class="container mx-auto">
+        <div>
+            <h1 class="text-[23px] leading-none-[130px] pt-[12opx] pb-[30px] pl-[20px]">News</h1>
+            <h2 class="text-[#BB2339] text-[48px] pb-[50px] leading-none-[3%] pl-[20px]">Gerícht updates</h2>
+            <div class="flex gap-[30px] flex-col items-center sm:grid md:grid-cols-2 lg:grid-cols-3">
+                <div class="max-w-[410px] h-[584px] border-2 rounded-[10px]  ">
+                    <img class="max-w-[400px] h-[352px] w-[100%]" src="./pegas/paul-hermann-jeiqzOgwwKU-unsplash 2.png" alt="goshlar">
+                      <h1 class="text-[24px] leading-none-0 pt-[30px] pb-[30px] pl-[10px]">Tips for prepping and caring for your grill</h1>
+                      <p class="text-[#AAAAAA] text-[14px] max-w-[361px] h-[72px] pl-[10px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
+                    in.</p>
+                    <h1 class="max-w-[86px] h-[16px] text-[#BB2339] text-[16px] pl-[10px]">Read </h1>
+                </div>
+                <div class="max-w-[400px] h-[584px] border-2 rounded-[10px]  ">
+                    <img class="max-w-[410px] h-[352px] w-[100%]" src="./pegas/paul-hermann-jeiqzOgwwKU-unsplash 2.png" alt="goshlar">
+                    <h1 class="text-[24px] leading-none-0 pt-[30px] pb-[30px] pl-[10px]">Tips for prepping and caring for your grill
+                    </h1>
+                    <p class="text-[#AAAAAA] text-[14px] max-w-[361px] h-[72px] pl-[10px]">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
+                        in.</p>
+                    <h1 class="max-w-[86px] h-[16px] text-[#BB2339] text-[16px] pl-[10px]">Read </h1>
+                </div>
+                <div class="max-w-[400px] h-[584px] border-2 rounded-[10px]  ">
+                    <img class="max-w-[410px] h-[352px] w-[100%]" src="./pegas/paul-hermann-jeiqzOgwwKU-unsplash 2.png" alt="goshlar">
+                    <h1 class="text-[24px] leading-none-0 pt-[30px] pb-[30px] pl-[10px]">Tips for prepping and caring for your grill
+                    </h1>
+                    <p class="text-[#AAAAAA] text-[14px] max-w-[361px] h-[72px] pl-[10px]">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
+                        in.</p>
+                    <h1 class="max-w-[86px] h-[16px] text-[#BB2339] text-[16px] pl-[10px]">Read </h1>
+                </div>
+                </div>
+                <button class="max-w-[149px] h-[44px] border-2 border-red-500 rounded-[30px] pl-[30px] pr-[30px] items-center flex-col mt-[30px] ml-[800px] sm:ml-[200px]">View More</button>
+        </div>
+        </div>
+
+       </section>
+  <section class="">
+<div class="container mx-auto  max-w-[2600px] h-[54px] bg-center pt-[60px]">
+   <iframe src="https://www.youtube.com/embed/kRCH8kD1GD0" title="You Tube video player allowfullscreen" frameborder="0"></iframe>  
+</div>
+  </section>
+  <section>
+    <div class="container mx-auto">
+          <div class="flex flex-col items-center sm:grid lg:grid-cols-2">
+            <div class="pt-[200px]">
+              <h1 class="text-[23px] leading-none-[130px]">lnstagram</h1>
+              <h2 class="text-[48px] leading-none-[3%] pt-[20px] pb-[20px]">Photo Gallery</h2>
+              <p class="text-[16px] leading-none-[175px] pb-[30px] max-w-[491px] h-[56px]">orem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
+            <button
+                class="max-w-[149px] h-[44px] border-2 border-red-500 rounded-[30px] pr-[30px] pl-[30px] items-center flex-col mt-[30px] ml-[800px] sm:ml-[200px]">View
+                More</button>
+            </div>
+            <img class="max-w-[301px] h-[447px] pt-[100px]" src="./pegas/1 (6).png" alt="sushi">
+          </div>
+    </div>
+  </section>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
